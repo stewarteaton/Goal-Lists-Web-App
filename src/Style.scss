@@ -1,0 +1,52 @@
+body{
+    top:0;
+  
+}
+
+.appPage{
+    background: url('https://images.unsplash.com/photo-1526635229611-9a2482c8427b?ixlib=rb-0.3.5&s=315c184260096ef3f19405792223ac7b&auto=format&fit=crop&w=1650&q=80');
+    height:100vh;
+    padding:3%;
+    
+    .clearAll{
+        margin-top:2%;
+    }
+}
+
+.topSection{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.lineBreak {
+    width:100%;
+    margin-top:2%;
+    margin-right:auto;margin-left:auto;
+    height:5px;
+    background-color:white;
+}
+
+.signUpPage,.signInPage{
+    height:100vh;
+    padding:3%;
+    background-color:rgb(255, 233, 172);
+    
+    .signUpContainer,.signInContainer{
+        background-color:rgb(218, 210, 210);
+        padding:2%;
+        border-radius:5px;
+        margin-left:30%;
+        margin-right:30%;
+        text-align: center;
+        .inputGroup{
+        display:flex;
+        flex-direction:column;
+        padding:3%;
+        }
+    }
+}
+
+.signInPage{
+    background-color:rgb(205, 255, 192);
+}
+
