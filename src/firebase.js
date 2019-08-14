@@ -3,12 +3,12 @@ import 'firebase/auth';
 import 'firebase/database';
 
 const config = {
-    apiKey: "AIzaSyBGBM0yzXfEAHQlI85xsozAjCSHOUbvctI",
-    authDomain: "goalcoach1-2907a.firebaseapp.com",
-    databaseURL: "https://goalcoach1-2907a.firebaseio.com",
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_DOMAIN,
+    databaseURL: process.env.DATABASE_URL,
     projectId: "goalcoach1-2907a",
     storageBucket: "",
-    messagingSenderId: "766336221517"
+    messagingSenderId: process.env.MESSAGING_SENDER_ID
   };
 
   export const firebaseApp = firebase.initializeApp(config);
